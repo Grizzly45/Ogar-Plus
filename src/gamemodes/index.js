@@ -15,7 +15,8 @@ module.exports = {
     FFATime: require('./FFATime.js'),
     Leap: require('./Leap.js'),	
     AirDrop: require('./AirDrop.js'),
-    Murder: require('./Murder.js')
+    Murder: require('./Murder.js'),
+    Blackhole: require('./Blackhole.js')
 };
 
 var get = function(id) {
@@ -59,6 +60,9 @@ var get = function(id) {
             break;
         case 18: // Murder
             mode = new module.exports.Murder();
+            break;
+        case 19: // Blackhole
+	    mode = new module.exports.Blackhole();
             break;
         case 20: // Rainbow
             mode = new module.exports.Rainbow();
