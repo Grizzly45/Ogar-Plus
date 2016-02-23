@@ -102,6 +102,7 @@ Id   | Name
 16   | Leap
 17   | ?
 18   | Murder (BETA)
+19   | Blackhole
 20   | Rainbow FFA
 21   | Debug
 
